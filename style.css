@@ -237,4 +237,87 @@ div.blog-content > h3, h6{
   font-weight: bold;
 }
 
+/* Styles for download section */
+
+.download-section{
+  height: 300px;
+  margin: 0 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.download-email{
+  width: 600px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #e9edff;
+}
+
+.download-email > form{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+input[placeholder="Enter your email address"]{
+  width: 200px;
+  background-color: #e9edff;
+  border: none;
+  margin-right: 250px;
+}
+
+input[placeholder="Enter your email address"] + button{
+  width: 130px;
+  height: 25px;
+  border: none;
+  border-radius: 25px;
+  background-color: blue;
+}
+
+/* Styles for footer section */
+
+.footer-section{
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15%;
+  background-color: blue;
+}
+
+.footer-logo{
+  margin-bottom: 3%;
+}
+
+.list{
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.list-items{
+  list-style: none;
+  color: #fff;
+  /* padding-right: 10px;
+  border-right: 2px solid #fff; */
+}
+
+.footer-logos{
+  height: 50px;
+  width: 50px;
+  margin-left: 4%;
+  margin-bottom: 4%;
+}
+
+.logos-list{
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
 
