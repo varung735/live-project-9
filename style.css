@@ -1,0 +1,240 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background-color: #FAF9F6;
+}
+
+/* styles for header */
+
+header{
+  height: 500px;
+  background-color: blue;
+}
+
+/* styles for navbar */
+
+nav{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+  margin: 0 5%;
+  padding-top: 1%;
+}
+
+.nav-item{
+   font-size: 15px;
+   color: #fff;
+}
+
+.nav-item-active{
+  padding: 0 1%;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  font-weight: bold;
+  color: blue;
+  background-color: #fff;
+}
+
+/* Styles for other header elements */
+
+.logo{
+  height: 50px;
+  width: 140px;
+  margin-left: 3%;
+  margin-top: 1%;
+}
+
+.header-text{
+  float: left;
+  color: #fff;
+  margin-left: 3%;
+  margin-top: 5%;
+  font-size: 1.5rem;
+  line-height: 50px;
+}
+
+.header-image{
+  float: right;
+  height: 63vh;
+  width: 45vw;
+}
+
+/* Styles for companies div */
+
+.companies{
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+.company-items{
+  text-decoration: none;
+  color: #000000;
+  font-weight: bolder;
+}
+
+div.companies :first-child{
+  margin-left: 10%;
+}
+
+div.companies :nth-child(2){
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* Styles for cards */
+
+.api{
+  margin: 0 3%;
+}
+
+.api-heading{
+  margin-top: 8%;
+  margin-bottom: 4%;
+  font-size: 3rem;
+  line-height: 70px;
+}
+
+.cards{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.card-active{
+  height: 250px;
+  width: 400px;
+  padding: 2% 2%;
+  background: #fff;
+  border-radius: 15px;
+}
+
+.card{
+  height: 300px;
+  width: 350px;
+  margin: 2%; 
+  background: transparent;
+}
+
+.card-logo{
+  margin: 1%;
+  margin-left: 2%;
+}
+
+.card-head-active{
+  color: blue;
+  margin: auto;
+}
+
+.card-head{
+  margin: auto;
+}
+
+.card-body{
+  padding-top: 2%;
+  font-size: 13px;
+  margin: auto;
+}
+
+/* Styles for Blog section */
+
+.blog-heading{
+  margin-left: 5%;
+  margin-bottom: 5%;
+  font-size: 25px;
+}
+
+.blog-cards{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin: 0 5%;
+}
+
+.blog-card{
+  width: 50vw;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  border-radius: 50px;
+}
+
+div.blog-image > img{
+  height: 350px;
+  width: 350px;
+}
+
+.blog-content{
+  position: relative;
+  height: 350px;
+  width: 100%;
+  background-color: #fff;
+  padding-left: 10%;
+}
+
+.blog-bottom{
+  align-self: flex-end;
+}
+
+.blog-author{
+  align-self: flex-end;
+  width: 150px;
+}
+
+div.blog-content > h6{
+  font-size: 13px;
+  color: blue;
+}
+
+div.blog-content > h3{
+  font-weight: bolder;
+  margin-bottom: 10%;
+}
+
+div.blog-content > h3, h6{
+  margin-top: 10%;
+}
+
+/* Styles for FAQ section */
+
+.faq-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #e9edff;
+  margin-top: 4%;
+}
+
+.faq-content{
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.faq-content > h2{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.faq-content > button{
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: blue;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
