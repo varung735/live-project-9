@@ -248,32 +248,36 @@ div.blog-content > h3, h6{
 }
 
 .download-email{
-  width: 600px;
-  height: 50px;
+  /* width: 600px;
+  height: 50px; */
   border-radius: 25px;
   background-color: #e9edff;
-}
-
-.download-email > form{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 10px;
+  padding: 6px 10px;
 }
 
-input[placeholder="Enter your email address"]{
-  width: 200px;
+input{
+  margin-right: 250px;
   background-color: #e9edff;
   border: none;
-  margin-right: 250px;
+  padding-right: 50px;
 }
 
-input[placeholder="Enter your email address"] + button{
+/* input[placeholder="Enter your email address"] + button{
   width: 130px;
   height: 25px;
   border: none;
   border-radius: 25px;
   background-color: blue;
+} */
+
+.download-email button{
+  padding: 8px 12px;
+  background-color: blue;
+  border: none;
+  border-radius: 15px;
 }
 
 /* Styles for footer section */
@@ -302,8 +306,6 @@ input[placeholder="Enter your email address"] + button{
 .list-items{
   list-style: none;
   color: #fff;
-  /* padding-right: 10px;
-  border-right: 2px solid #fff; */
 }
 
 .footer-logos{
@@ -318,6 +320,10 @@ input[placeholder="Enter your email address"] + button{
   display: flex;
   flex-direction: row;
   gap: 25px;
+}
+
+.logos-list:hover{
+  cursor: pointer;
 }
 
 
