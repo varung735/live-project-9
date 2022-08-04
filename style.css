@@ -161,6 +161,7 @@ div.companies :nth-child(2){
 }
 
 .blog-card{
+  position: relative;
   width: 50vw;
   height: 100%;
   display: flex;
@@ -174,7 +175,6 @@ div.blog-image > img{
 }
 
 .blog-content{
-  position: relative;
   height: 350px;
   width: 100%;
   background-color: #fff;
@@ -182,10 +182,16 @@ div.blog-image > img{
 }
 
 .blog-bottom{
+  position: absolute;
+  bottom: -6%;
+  right: 30%;
   align-self: flex-end;
 }
 
 .blog-author{
+  position: absolute;
+  bottom: 3%;
+  right: 5%; 
   align-self: flex-end;
   width: 150px;
 }
