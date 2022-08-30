@@ -1,7 +1,6 @@
 # API Project
 
-   - I am Varun Gupta
-   - Working on this project to apply what I've learned
+![API-project](./screen-shots/01.png)
 
 ## About project
 
@@ -13,11 +12,19 @@ This is an homepage of some sort of business or startup maybe which sells APIs.
 
 ## Time Taken
 
-It took me 2 days honestly to build this project.
+It took me 2 days honestly to build this project and additional 2 hours to make it responsive.
 
 ## Concepts Learned
 
  - Applied the display: flex; property.
  - Used Combinators selectors and pseudo classes.
- - Still learning about margins and paddings and their accurate use.
+ - basic positioning property.
+ - basic margin, padding etc.
+
+## Find Me On
+
+ - [LinkedIn](https://www.linkedin.com/in/varun-g-65282489)
+ - [Github](https://github.com/varung735)
+
+ ## Thank You.
 
